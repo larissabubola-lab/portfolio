@@ -288,6 +288,7 @@ i{
     font-size:25px;
     text-decoration:underline;
     font-family:sekuya;
+    text-shadow:-5px -5px 15px white;
 }
 
 .cartinhas {
@@ -474,45 +475,35 @@ i{
     left:70%;
 }
 #projetos{
-    /* display:none; */
     display:flex;
-    flex-direction:row !important;
+    flex-direction:column;
+    width:100%;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+    margin-top:90px;
+    
+}
+#h1_projetos{
+    text-align: center;
+    font-family:sekuya;
+    color:white;
+    text-shadow:-5px -5px 15px white;
+}
+#lugar_projetos{
     width:80%;
     height:260px;
+    display:flex;
+    flex-direction:row;
     justify-content:center;
     align-items:center;
     background:white;
-    margin-top:190px;
+    /* margin-top:190px; */
     padding:10px;
     gap:150px;
     border:inset rgba(1,1,1,0.5);
-    /* box-shadow:10px 10px 10px grey inset ; */
-       box-shadow:inset 5px 5px 30px rgba(1,1,1,0.7), inset 5px 5px 3px grey;
+    box-shadow:inset 5px 5px 30px rgba(1,1,1,0.7), inset 5px 5px 3px grey;
 }
-
-/* #thorkmath{
-    color:#519ab2;
-}
-
-#thorkmath i{
-    color:#519ab2;
-}
-
-#biblioteca{
-    color:#519ab2;
-}
-
-#biblioteca i{
-    color:
-}
-
-#edufluxo{
-    color:#519ab2;
-}
-
-#edufluxo i{
-    color:#519ab2;
-} */
 
 .projetos_cartas{
     width:150px;
@@ -523,6 +514,7 @@ i{
     align-items:center;
     position:relative;
     perspective:1000;
+    cursor:default;
 }
 
 .na_frente{
