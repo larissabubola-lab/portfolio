@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Portfolio pessoal</title>
+        <link rel="stylesheet" href="style.css">
+        <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous"> -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    </head>
+
+    <body>
+        <div id="caixa_ferramentas">
+            <a href="#">
+                <div class="caixa_botoes">
+                    <i class="bi bi-house-door"></i>
+                    <button class="botoes" onclick="foi_home()">Home</button>
+                </div>
+            </a>
+            <a href="#">
+                <div class="caixa_botoes">
+                    <i class="bi bi-person"></i>
+                    <button class="botoes" onclick="foi_sobre()">Sobre mim</button>
+                </div>
+            </a>
+            <a href="#">
+                <div class="caixa_botoes">
+                    <i class="bi bi-briefcase"></i>
+                    <button class="botoes" onclick="foi_projetos()">Projetos</button>
+                </div>
+            </a>
+            <a href="#">
+                <div class="caixa_botoes">
+                    <i class="bi bi-envelope"></i>
+                    <button class="botoes" onclick="foi_contato()">Contato</button>
+                </div>
+            </a>
+        </div>
+        <main id="home">
+            <div id="auxiliar">
+                <div id="informacoes">
+                    <h1 id="h1">Olá! Meu nome é<br><span id="segundo_texto"><b>Larissa :)</b></span></h1>
+                    <div id="referencial">
+                        <img id="foto" src="assets/square-image.jpg" alt="Minha foto :p">
+                        <div id="imagem_atras"></div>
+                    </div>
+    
+                </div>
+            </div>
+
+          
+        </main>
+
+        <section id="sobre_mim">
+            <div id="perfil">
+                <div id="informacoes_sobre">
+                    <img src="assets/estrelinha.png" alt="estrelinha" id="estrela">
+                    <h1 id="h1_sobre"><b>Sobre mim</b></h1> <!--!VOU MEXER AQUI DPS-->
+                    <p id="paragrafo_sobre">Meu nome é <b>Larissa Palma Bubola</b>, tenho 17 anos e sou uma programadora iniciante de front-end. Atualmente, sou estudante do curso de tecnico em desenvolvimento de sistemas do Colégio Estadual Souza Naves, e pretendo me tornar uma desenvolvedora full-stack.</p>
+                    <img id="personagem" src="assets/sorrindo.png" alt="Mini Larissa mexendo no computador.">
+                </div>
+                <h2 id="h2">Minhas habilidades de programação incluem:</h2>
+                <div id="habilidades">
+                    <div id="emcima">
+                        <div class="cartinhas">
+                            <img src="assets/HTML.png" alt="html" class="imagens_programacao" id="html">
+                            <p class="atras">Eu gosto muito de criar páginas web com HTML, e considero me dar bem com a linguagem.</p>
+                        </div>
+                        <div class="cartinhas">
+                            <img src="assets/css.png" alt="css" class="imagens_programacao" id="css">
+                            <p class="atras">Adoro estilizar páginas com CSS e sempre procuro melhorar meus designs!</p>
+                        </div>
+                        <div class="cartinhas">
+                            <img src="assets/js.png" alt="javascript" class="imagens_programacao" id="js">
+                            <p class="atras">Uso JavaScript principalmente para deixar minhas páginas mais interativas, mas também sei utilizá-lo em outros contextos.</p>
+                        </div>
+                    </div>
+                    <div id="embaixo">
+                        <div class="cartinhas">
+                            <img src="assets/python.png" alt="python" class="imagens_programacao" id="python">
+                            <p class="atras">Só sei o básico de Python e não é nele que tendo a focar, mas sei utilizá-lo em alguns projetos.</p>
+                        </div>
+                        <div class="cartinhas">
+                            <img src="assets/xampp.png" alt="xampp" class="imagens_programacao" id="xampp">
+                            <p class="atras">Gosto de mexer com php e sei o básico sobre banco de dados MySQL!</p>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+
+            <!-- <div id="objetivos">
+                <h2 id="h2_objetivos">Habilidades que pretendo desenvolver no futuro:</h2>
+                <ul id="lista">
+                    <div>
+                        <li>Aprimorar meu conhecimento nas linguagens que já sei;</li>
+                    </div>
+                    <div>
+                        <li>Desenvolver habilidades de design e UX/UI;</li>
+                    </div>
+                    <div>
+                        <li>Desenvolvimento de aplicações web com React;</li>
+                    </div>
+                    <div>
+                        <li>Estudar outras linguagens de programação, como Java, C# e PHP;</li>
+                    </div>
+                    <div>
+                        <li>Aprender a criar aplicativos mobile;</li>
+                    </div>
+                    <div>
+                        <li>E muito mais!</li>
+                    </div>
+                </ul>
+            </div> -->
+            <div id="espaco"></div>
+        </section>
+
+        <section id="projetos" class="animate__animated animate__jackInTheBox" style="display: none;"> 
+
+            <div class="projetos_cartas" id="thorkmath">
+                <div class="na_frente">
+                    <i class="bi bi-controller"></i>
+                    <p >Thork Math</p>
+                </div>
+                <div class="github">
+                    <p >Um dos meus primeiros projetos oo curso. Um jogo inspirado em earthbound com tema de matemática.</p>
+                    <a href="" title="Link para o jogo Thork Math">Link para o projeto!</a>
+                </div>
+            </div>
+   
+            <div class="projetos_cartas" id="biblioteca">
+        
+                <div class="na_frente">
+                    <!-- <i class="bi bi-book-fill"></i> -->
+                    <i class="bi bi-book"></i>
+                    <p >Biblioteca  cesn</p>
+                </div>
+                <div class="github">
+                    <!-- <i class="bi bi-github"></i> -->
+                    <p >Um sistema que salva empréstimos de uma biblioteca.</p>
+                    <a href="" title="Link para a Biblioteca CESN">Link para o projeto!</a>
+                </div>
+
+            </div>
+
+            <div class="projetos_cartas" id="edufluxo">
+                <div class="na_frente">
+                    <i class="bi bi-pencil-square"></i>
+                    <p >Edufluxo</p>
+                </div>
+                <div class="github">
+                    <!-- <i class="bi bi-github"></i> -->
+                    <p>Sistema que salva ocorrências e fluxos de entrada e saída escolares. Primeiro trabalho do segundo ano do curso.</p>
+                    <a href="https://github.com/larissabubola-lab/Sistema-EduFluxo.git" title="Link para o projeto EduFluxo">Link para o projeto!</a>
+                </div>
+            </div>
+        
+        </section>
+
+        <section id="contato" >
+            <div id="campo_contato" class="animate__animated animate__backInDown">
+                <h1 id="h1_contato">Entre em contato comigo!</h1>
+                <div id="redes">
+
+                    <a href="mailto:larissapalma0309@gmail.com" class="links" id="gmail" title="email">
+                        <i class="bi bi-envelope"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/larissa-palma-bubola/" target="_blank" class="links" id="linkedin" title="linkedin">                   
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+
+                    <a href="https://github.com/larissapalma" target="_blank" class="links" id="github" title="linkedin">
+                        <i class="bi bi-github"></i>
+                    </a>
+                </div>
+            </div>
+
+        </section>
+
+        <script src="portfolio.js"></script>
+    </body>
+</html>
