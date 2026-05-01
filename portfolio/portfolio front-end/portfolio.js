@@ -11,7 +11,7 @@ function foi_home(){
     
     pagina_sobre.style.display = "none";
     pagina_contato.style.display = "none";
-    // window.scrollTo(0, 0);
+    window.scrollTo(0, 0);
 }
 
 function foi_sobre(){
@@ -19,7 +19,7 @@ function foi_sobre(){
     pagina_projetos.style.display = "none";
     pagina_sobre.style.display = "block";
     pagina_contato.style.display = "none";
-    // window.scrollTo(0, 0);
+    window.scrollTo(0, 0);
 }
 
 function foi_projetos(){
@@ -27,7 +27,7 @@ function foi_projetos(){
     pagina_projetos.style.display = "flex";
     pagina_sobre.style.display = "none";
     pagina_contato.style.display = "none";
-    // window.scrollTo(0, 0);
+    window.scrollTo(0, 0);
 }
 
 function foi_contato(){
@@ -35,7 +35,7 @@ function foi_contato(){
     pagina_projetos.style.display = "none";
     pagina_sobre.style.display = "none";
     pagina_contato.style.display = "block";
-    // window.scrollTo(0, 0);
+    window.scrollTo(0, 0);
 
 }
 

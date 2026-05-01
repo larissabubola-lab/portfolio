@@ -96,7 +96,7 @@ i{
     transition: transform 500ms ease;
 }
 #auxiliar:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
     
 }
 #informacoes{
@@ -588,7 +588,8 @@ i{
 .github a{
     color:#97c2d0;
     /* -webkit-text-stroke:0.5px grey; */
-    color:white;
+    /* color:white; */
+    color:darkblue;
 }
 
 
