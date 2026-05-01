@@ -106,8 +106,10 @@ i{
     width: fit-content;
     height: 350px; 
     align-items:center;
-    border: outset rgba(1, 1, 1, 0.5); 
-    box-shadow: 5px 5px 10px grey, -5px -5px 10px black;
+    border:outset rgba(1, 1, 1, 0.7);
+    box-shadow:5px 5px 20px white inset, 5px 5px 10px rgba(1, 1, 1, 0.7);
+    /* border: outset rgba(1, 1, 1, 0.5);  */
+    /* box-shadow: 5px 5px 10px grey, -5px -5px 10px black; */
     gap: 50px;
     border-radius: 20px;
     padding: 20px;
@@ -576,6 +578,7 @@ i{
 .github p{
     width:90%;
     color:white;
+    text-align:center;
 }
 .github a{
     color:#97c2d0;
